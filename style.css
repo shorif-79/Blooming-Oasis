@@ -1,0 +1,23 @@
+/* common code */
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.hd-img1{
+  height: 50vh;
+  background: url(image/im10.jpeg) center/cover no-repeat;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+.nav-link:hover{
+  background-color: aqua;
+  transform: scale(1.15);
+}
+
+.hero img:hover{
+  transform: scale(1.02);
+}
